@@ -20,11 +20,11 @@ Each function is exposed as an HTTP endpoint in your Go `main` package.
 ### Benchmark Endpoints and Metrics
 | Function/Endpoint                        |   avg    |   min    |   med    |   max    |  p(90)   |  p(95)   | fail rate |
 |------------------------------------------|----------|----------|----------|----------|----------|----------|-----------|
-| `/hi` (Hello World)                      | 218.59ms |   300µs  | 160.56ms |   1.26s  | 540.41ms | 627.79ms |   0.00%   |
-| `/OTP` (Build OTP Code)                  | 608.24ms |   298µs  | 362.69ms |   4.43s  |   1.47s  |   1.95s  |   0.00%   |
-| `/OTPWithRedis`                          | 511.11ms |   332µs  | 467.80ms |   2.76s  |   1.03s  |   1.25s  |   0.00%   |
-| `/OTPWithRedisAndPostgres`               |   6.50s  |   394µs  |   6.06ms |  36.79s  |  31.76s  |  32.72s  |   0.00%   |
-| `/OTPWithRedisAndPostgresAndSMS`         |   7.94s  |   424µs  | 194.01ms |  54.66s  |  32.48s  |  33.29s  |   0.00%   |
+| `hi` (Hello World)                      | 218.59ms |   300µs  | 160.56ms |   1.26s  | 540.41ms | 627.79ms |   0.00%   |
+| `OTP` (Build OTP Code)                  | 608.24ms |   298µs  | 362.69ms |   4.43s  |   1.47s  |   1.95s  |   0.00%   |
+| `OTPWithRedis`                          | 511.11ms |   332µs  | 467.80ms |   2.76s  |   1.03s  |   1.25s  |   0.00%   |
+| `OTPWithRedisAndPostgres`               |   6.50s  |   394µs  |   6.06ms |  36.79s  |  31.76s  |  32.72s  |   0.00%   |
+| `OTPWithRedisAndPostgresAndSMS`         |   7.94s  |   424µs  | 194.01ms |  54.66s  |  32.48s  |  33.29s  |   0.00%   |
 
 ---
 
